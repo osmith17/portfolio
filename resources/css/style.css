@@ -1,0 +1,33 @@
+html{
+  font-size: 16px;
+}
+.navbar-nav{
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.58);
+
+}
+.navbar-brand{
+  color: #0f5c9e;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.contact{
+  float: right;
+}
+.jumbotron{
+  background-image: url("../images/birdseye.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+.jumbotron .container{
+  background-color: rgba(255, 255, 255, 0.58);
+  width: 50%;
+  border-radius: 5px;
+  margin-top: 10rem;
+}
+.jumbotron h1{
+  color: #0f5c9e;
+  text-align: center;
+}
