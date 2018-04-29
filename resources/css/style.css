@@ -107,6 +107,15 @@ padding-right: 0.5rem;
 .backgroundToggle{
   background-color: rgba(0, 0, 0, 0.55) !important;
 }
+.bodyToggle{
+  background-color: rgba(0, 0, 0, 0.89) !important;
+}
 .textToggle{
   color: white !important;
+}
+.jumbotronToggle{
+  background-image: url("../images/Volcano-Mountains.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
 }

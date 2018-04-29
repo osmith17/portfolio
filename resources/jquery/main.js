@@ -4,10 +4,11 @@ $(document).ready(function(){
     $('nav').toggleClass('backgroundToggle');
     $('.navbar-brand').toggleClass('textToggle');
     $('p').toggleClass('textToggle');
-    $('body').toggleClass('backgroundToggle');
+    $('body').toggleClass('bodyToggle');
     $('h2').toggleClass('textToggle');
     $('h1').toggleClass('textToggle');
     $('.jumbotron .container').toggleClass('backgroundToggle');
+    $('.jumbotron').toggleClass('jumbotronToggle');
   });
 
 });
