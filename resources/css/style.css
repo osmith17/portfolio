@@ -100,7 +100,15 @@ border-radius: 5px;
 padding-left: 0.5rem;
 padding-right: 0.5rem;
 }
-
+a img{
+  border: 4px solid rgba(0, 0, 0, 0);
+}
+a img:hover{
+  border: 4px solid #0f5c9e;
+}
+a{
+    cursor: pointer;
+}
 
 /* toggle class styles */
 
@@ -118,4 +126,16 @@ padding-right: 0.5rem;
   background-position: center;
   background-size: cover;
   height: 400px;
+}
+.imgToggle{
+  border: 4px solid rgba(0, 0, 0, 0);
+}
+.imgToggle:hover{
+  border: 4px solid rgba(253, 73, 4, 0.77);
+}
+.navAToggle{
+
+}
+.navAToggle:hover{
+  color: rgba(253, 73, 4, 0.77) !important;
 }

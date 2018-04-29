@@ -9,6 +9,8 @@ $(document).ready(function(){
     $('h1').toggleClass('textToggle');
     $('.jumbotron .container').toggleClass('backgroundToggle');
     $('.jumbotron').toggleClass('jumbotronToggle');
+    $('a img').toggleClass('imgToggle');
+    $('nav a').toggleClass('navAToggle');
   });
 
 });
