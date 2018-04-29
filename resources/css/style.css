@@ -98,8 +98,8 @@ padding-right: 0.5rem;
 /* toggle class styles */
 
 .backgroundToggle{
-  background-color: rgba(0, 0, 0, 0.55);
+  background-color: rgba(0, 0, 0, 0.55) !important;
 }
 .textToggle{
-  color: white;
+  color: white !important;
 }
