@@ -38,10 +38,15 @@ body{
 }
 .jumbotron .container{
   background-color: rgba(255, 255, 255, 0.58);
-  max-width: 60%;
+  max-width: 50%;
   width: auto;
   border-radius: 5px;
   margin-top: 10rem;
+}
+@media only screen and (max-width:580px){
+  .jumbotron .container{
+    max-width: 85%;
+  }
 }
 .jumbotron h1{
   color: #0f5c9e;
