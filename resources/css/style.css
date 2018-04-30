@@ -1,5 +1,6 @@
 html{
   font-size: 16px;
+
 }
 body{
   width: 100%;
@@ -80,6 +81,16 @@ section{
 section p{
   font-size: 1.3rem;
   text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+h4{
+  font-family: 'Work Sans', sans-serif;
+}
+h1,
+h2,
+h3,
+nav{
+  font-family: 'Space Mono', monospace !important;
 }
 p img{
   height: 1.2rem;
@@ -107,6 +118,7 @@ p img{
   color: gold;
 }
 .button{
+
 }
 .button:hover{
   cursor: pointer;
