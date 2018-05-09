@@ -15,4 +15,36 @@ $('body').attr('id','sea');
 $('body').attr('id','snow');
 }
 });
+
+$('.carousel-desktop').slick({
+  autoplay:true,
+  autoplaySpeed:4000,
+  arrows:false,
+  slidesToScroll:1,
+  pauseOnFocus:false,
+  pauseOnHover:false,
+  draggable:false,
+  speed:1800
+
+});
+$('.carousel-mobile').slick({
+  autoplay:true,
+  autoplaySpeed:2500,
+  arrows:false,
+  slidesToScroll:1,
+  pauseOnFocus:false,
+  pauseOnHover:false,
+  draggable:false,
+  speed:1500
+
+});
+
+
+
+
+
+
+
+
+
 });

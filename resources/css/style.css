@@ -58,6 +58,12 @@ body{
     max-width: 85%;
   }
 }
+
+#snow .row{
+  display: flex;
+  flex-direction: row;
+}
+
 #snow .jumbotron h1{
   color: #0f5c9e;
   text-align: center;
@@ -165,6 +171,18 @@ cursor: pointer;
     cursor: pointer;
 }
 
+#snow .carousel-mobile{
+  display: none;
+}
+@media only screen and (max-width:780px){
+  #snow .carousel-mobile{
+    display: block;
+  }
+  #snow .carousel-desktop{
+    display: none;
+  }
+}
+
 /* fire */
 #fire{
   background-color:rgba(0, 0, 0, 0.89);
@@ -202,6 +220,10 @@ cursor: pointer;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
   }
+}
+#fire .row{
+  display: flex;
+  flex-direction: row;
 }
 #fire .jumbotron{
   background-image: url("../images/Volcano-Mountains.jpg");
@@ -329,6 +351,17 @@ cursor: pointer;
 #fire a{
     cursor: pointer;
 }
+#fire .carousel-mobile{
+  display: none;
+}
+@media only screen and (max-width:780px){
+  #fire .carousel-mobile{
+    display: block;
+  }
+  #fire .carousel-desktop{
+    display: none;
+  }
+}
 
 /*forest theme*/
 #forest{
@@ -374,7 +407,10 @@ cursor: pointer;
   background-size: cover;
   height: 400px;
 }
-
+#forest .row{
+  display: flex;
+  flex-direction: row;
+}
 #forest .jumbotron .container{
   background-color: rgba(0, 56, 10, 0.58);
   max-width: 50%;
@@ -494,7 +530,17 @@ cursor: pointer;
 #forest a{
     cursor: pointer;
 }
-
+#forest .carousel-mobile{
+  display: none;
+}
+@media only screen and (max-width:780px){
+  #forest .carousel-mobile{
+    display: block;
+  }
+  #forest .carousel-desktop{
+    display: none;
+  }
+}
 /*sea*/
 #sea{
   background-color: rgba(0, 99, 253, 0.61);
@@ -503,6 +549,10 @@ cursor: pointer;
   width: 100%;
   background-color: rgba(11, 36, 226, 0.28);
  flex-direction: row;
+}
+#sea .row{
+  display: flex;
+  flex-direction: row;
 }
  #sea .navbar-brand{
   color: white;
@@ -658,6 +708,17 @@ cursor: pointer;
 }
 #sea a{
     cursor: pointer;
+}
+#sea .carousel-mobile{
+  display: none;
+}
+@media only screen and (max-width:780px){
+  #sea .carousel-mobile{
+    display: block;
+  }
+  #sea .carousel-desktop{
+    display: none;
+  }
 }
 
 /* toggle class styles */
