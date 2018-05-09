@@ -144,8 +144,8 @@ color: white;
 border-radius: 5px;
 padding-left: 0.5rem;
 padding-right: 0.5rem;
-max-width: 15%;
-margin-top: 1rem;
+max-width: 40%;
+margin-left: 0;
 width: auto;
 text-align: center;
 }
@@ -154,8 +154,10 @@ cursor: pointer;
 }
 @media only screen and (max-width:580px){
   #snow .button{
-
-  max-width: 25%;
+  font-size: 0.6rem;
+  margin: auto;
+  margin-left: 7rem;
+  max-width: 40%;
   width: auto;
   }
 }
