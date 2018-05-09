@@ -5,47 +5,48 @@ html{
 body{
   width: 100%;
 }
-.navbar-nav{
+#snow .navbar-nav{
   width: 100%;
   background-color: rgba(255, 255, 255, 0.58);
  flex-direction: row;
 }
-.navbar-brand{
+ #snow .navbar-brand{
   color: #0f5c9e;
   font-size: 1.5rem;
   margin-left: 2rem;
   margin-right: 2rem;
 }
-.mobile{
+#snow .mobile{
   display: none;
 }
 @media only screen and (max-width:580px){
-  .navbar-brand{
+  #snow .navbar-brand{
     font-size: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
   }
-  .desktop{
+  #snow .desktop{
     display: none;
   }
-  .mobile{
+  #snow .mobile{
     display: block;
   }
 }
 @media only screen and (max-width:400px){
-  .navbar-brand{
+  #snow .navbar-brand{
     font-size: 0.8rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
   }
 }
-.jumbotron{
+#snow .jumbotron{
   background-image: url("../images/birdseye.jpg");
   background-position: center;
   background-size: cover;
   height: 400px;
 }
-.jumbotron .container{
+
+#snow .jumbotron .container{
   background-color: rgba(255, 255, 255, 0.58);
   max-width: 50%;
   width: auto;
@@ -53,64 +54,64 @@ body{
   margin-top: 10rem;
 }
 @media only screen and (max-width:580px){
-  .jumbotron .container{
+  #snow .jumbotron .container{
     max-width: 85%;
   }
 }
-.jumbotron h1{
+#snow .jumbotron h1{
   color: #0f5c9e;
   text-align: center;
   padding: 0.5rem 0;
 }
-.image-container{
+#snow .image-container{
   /*display: flex;
   justify-content: space-around;*/
   margin-top: 1.5rem;
 }
-.row .container:hover{
+#snow .row .container:hover{
   transform: scale(1.05);
   transition: 0.3s;
 }
-.image-container .container{
+#snow .image-container .container{
   padding: 2rem;
 }
-.container-fluid h2{
+#snow .container-fluid h2{
   text-align: center;
   color: #0f5c9e;
   margin-top: 2rem;
 }
-.fa-html5{
+#snow .fa-html5{
   color: rgb(228, 77, 38);
 }
-.fa-css3-alt{
+ #snow .fa-css3-alt{
   color: rgb(59, 154, 217);
 }
-.fa-js-square{;
+#snow .fa-js-square{;
   color: rgb(99, 168, 20);
 }
-section{
+#snow section{
   width: 65%;
   margin: auto;
 }
-section p{
+#snow section p{
   font-size: 1.3rem;
   text-align: center;
   font-family: 'Work Sans', sans-serif;
 }
-h4{
+#snow h4{
   font-family: 'Work Sans', sans-serif;
 }
-h1,
-h2,
-h3,
-nav{
+#snow h1,
+#snow h2,
+#snow h3,
+#snow nav{
   font-family: 'Space Mono', monospace !important;
 }
-p img{
+#snow p img{
   height: 1.2rem;
   width: 1.2rem;
 }
-.footer{
+#snow .footer{
   background-color: #0f5c9e;
   color: white;
   margin-top: 3rem;
@@ -118,55 +119,572 @@ p img{
   text-align: center;
   height: 10rem;
 }
-.footer h3,
-.footer h4{
+#snow .footer h3,
+#snow .footer h4{
   padding-top: 1rem;
   margin-bottom: 0;
 }
 
-.fa-github{
+#snow .fa-github{
   font-size: 2rem;
   color: white;
 }
-.fa-github:hover{
+#snow .fa-github:hover{
   color: gold;
 }
-.button{
-
-}
-.button:hover{
-  cursor: pointer;
-background-color: #0f5c9e;
+#snow .button{
+background-color: rgba(15, 92, 158, 0.75);
 color: white;
 border-radius: 5px;
 padding-left: 0.5rem;
 padding-right: 0.5rem;
+max-width: 15%;
+margin-top: 1rem;
+width: auto;
+text-align: center;
+}
+#snow .button:hover{
+cursor: pointer;
+}
+@media only screen and (max-width:580px){
+  #snow .button{
+
+  max-width: 25%;
+  width: auto;
+  }
 }
 .button:active{
 }
-a img{
+#snow a img{
   border: 4px solid rgba(0, 0, 0, 0);
 }
-a img:hover{
+#snow a img:hover{
   border: 4px solid #0f5c9e;
 }
-a{
+#snow a{
+    cursor: pointer;
+}
+
+/* fire */
+#fire{
+  background-color:rgba(0, 0, 0, 0.89);
+}
+#fire .navbar-nav{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+ flex-direction: row;
+}
+ #fire .navbar-brand{
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+#fire .mobile{
+  display: none;
+}
+@media only screen and (max-width:580px){
+  #fire .navbar-brand{
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  #fire .desktop{
+    display: none;
+  }
+  #fire .mobile{
+    display: block;
+  }
+}
+@media only screen and (max-width:400px){
+  #fire .navbar-brand{
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}
+#fire .jumbotron{
+  background-image: url("../images/Volcano-Mountains.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+#fire .jumbotron .container{
+  background-color: rgba(0, 0, 0, 0.55);
+  max-width: 50%;
+  width: auto;
+  border-radius: 5px;
+  margin-top: 10rem;
+}
+@media only screen and (max-width:580px){
+  #fire .jumbotron .container{
+    max-width: 85%;
+  }
+}
+#fire .jumbotron h1{
+  color: white;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+#fire .image-container{
+  /*display: flex;
+  justify-content: space-around;*/
+  margin-top: 1.5rem;
+}
+#fire .row .container:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+#fire .image-container .container{
+  padding: 2rem;
+}
+#fire .container-fluid h2{
+  text-align: center;
+  color: white;
+  margin-top: 2rem;
+}
+#fire .fa-html5{
+  color: rgb(228, 77, 38);
+}
+ #fire .fa-css3-alt{
+  color: rgb(59, 154, 217);
+}
+#fire .fa-js-square{;
+  color: rgb(99, 168, 20);
+}
+#fire section{
+  width: 65%;
+  margin: auto;
+}
+#fire section p{
+  font-size: 1.3rem;
+  color: white;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+#fire h4{
+  font-family: 'Work Sans', sans-serif;
+}
+#fire h1,
+#fire h2,
+#fire h3,
+#fire nav{
+  font-family: 'Space Mono', monospace !important;
+}
+#fire p img{
+  height: 1.2rem;
+  width: 1.2rem;
+}
+#fire .footer{
+  background-color: #0f5c9e;
+  color: white;
+  margin-top: 3rem;
+  width: 100%;
+  text-align: center;
+  height: 10rem;
+}
+#fire .footer h3,
+#fire .footer h4{
+  padding-top: 1rem;
+  margin-bottom: 0;
+}
+
+#fire .fa-github{
+  font-size: 2rem;
+  color: white;
+}
+#fire .fa-github:hover{
+  color: gold;
+}
+#fire .button{
+background-color: rgba(0, 0, 0, 0.55);
+color: white;
+border-radius: 5px;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+max-width: 15%;
+margin-top: 1rem;
+width: auto;
+text-align: center;
+}
+#fire .button:hover{
+cursor: pointer;
+}
+@media only screen and (max-width:580px){
+  #fire .button{
+
+  max-width: 25%;
+  width: auto;
+  }
+}
+.button:active{
+}
+#fire a img{
+  border: 4px solid rgba(0, 0, 0, 0);
+}
+#fire a img:hover{
+  border: 4px solid #ff7411;
+}
+#fire a{
+    cursor: pointer;
+}
+
+/*forest theme*/
+#forest{
+  background-color: rgba(0, 56, 10, 0.58);
+}
+#forest .navbar-nav{
+  width: 100%;
+  background-color: rgba(0, 56, 10, 0.58);
+ flex-direction: row;
+}
+ #forest .navbar-brand{
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+#forest .mobile{
+  display: none;
+}
+@media only screen and (max-width:580px){
+  #forest .navbar-brand{
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  #forest .desktop{
+    display: none;
+  }
+  #forest .mobile{
+    display: block;
+  }
+}
+@media only screen and (max-width:400px){
+  #forest .navbar-brand{
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}
+#forest .jumbotron{
+  background-image: url("../images/forest.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+#forest .jumbotron .container{
+  background-color: rgba(0, 56, 10, 0.58);
+  max-width: 50%;
+  width: auto;
+  border-radius: 5px;
+  margin-top: 10rem;
+}
+@media only screen and (max-width:580px){
+  #forest .jumbotron .container{
+    max-width: 85%;
+  }
+}
+#forest .jumbotron h1{
+  color:white;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+#forest .image-container{
+  /*display: flex;
+  justify-content: space-around;*/
+  margin-top: 1.5rem;
+}
+#forest .row .container:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+#forest .image-container .container{
+  padding: 2rem;
+}
+#forest .container-fluid h2{
+  text-align: center;
+  color: white;
+  margin-top: 2rem;
+}
+#forest .fa-html5{
+  color: rgb(228, 77, 38);
+}
+ #forest .fa-css3-alt{
+  color: rgb(59, 154, 217);
+}
+#forest .fa-js-square{;
+  color: rgb(99, 168, 20);
+}
+#forest section{
+  width: 65%;
+  margin: auto;
+}
+#forest section p{
+  font-size: 1.3rem;
+  color: white;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+#forest h4{
+  font-family: 'Work Sans', sans-serif;
+}
+#forest h1,
+#forest h2,
+#forest h3,
+#forest nav{
+  font-family: 'Space Mono', monospace !important;
+}
+#forest p img{
+  height: 1.2rem;
+  width: 1.2rem;
+}
+#forest .footer{
+  background-color: #0f5c9e;
+  color: white;
+  margin-top: 3rem;
+  width: 100%;
+  text-align: center;
+  height: 10rem;
+}
+#forest .footer h3,
+#forest .footer h4{
+  padding-top: 1rem;
+  margin-bottom: 0;
+}
+
+#forest .fa-github{
+  font-size: 2rem;
+  color: white;
+}
+#forest .fa-github:hover{
+  color: gold;
+}
+#forest .button{
+background-color: rgba(0, 56, 10, 0.58);
+color: white;
+border-radius: 5px;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+max-width: 15%;
+margin-top: 1rem;
+width: auto;
+text-align: center;
+}
+#forest .button:hover{
+cursor: pointer;
+}
+@media only screen and (max-width:580px){
+  #forest .button{
+
+  max-width: 25%;
+  width: auto;
+  }
+}
+.button:active{
+}
+#forest a img{
+  border: 4px solid rgba(0, 0, 0, 0);
+}
+#forest a img:hover{
+  border: 4px solid gold;
+}
+#forest a{
+    cursor: pointer;
+}
+
+/*sea*/
+#sea{
+  background-color: rgba(0, 99, 253, 0.61);
+}
+#sea .navbar-nav{
+  width: 100%;
+  background-color: rgba(11, 36, 226, 0.28);
+ flex-direction: row;
+}
+ #sea .navbar-brand{
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+#sea .mobile{
+  display: none;
+}
+@media only screen and (max-width:580px){
+  #sea .navbar-brand{
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  #sea .desktop{
+    display: none;
+  }
+  #sea .mobile{
+    display: block;
+  }
+}
+@media only screen and (max-width:400px){
+  #sea .navbar-brand{
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}
+#sea .jumbotron{
+  background-image: url("../images/shark.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+#sea .jumbotron .container{
+  background-color: rgba(11, 36, 226, 0.28);
+  max-width: 50%;
+  width: auto;
+  border-radius: 5px;
+  margin-top: 10rem;
+}
+@media only screen and (max-width:580px){
+  #sea .jumbotron .container{
+    max-width: 85%;
+  }
+}
+#sea .jumbotron h1{
+  color: white;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+#sea .image-container{
+  /*display: flex;
+  justify-content: space-around;*/
+  margin-top: 1.5rem;
+}
+#sea .row .container:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+#sea .image-container .container{
+  padding: 2rem;
+}
+#sea .container-fluid h2{
+  text-align: center;
+  color: white;
+  margin-top: 2rem;
+}
+#sea .fa-html5{
+  color: rgb(228, 77, 38);
+}
+ #sea .fa-css3-alt{
+  color: rgb(59, 154, 217);
+}
+#sea .fa-js-square{;
+  color: rgb(99, 168, 20);
+}
+#sea section{
+  width: 65%;
+  margin: auto;
+}
+#sea section p{
+  font-size: 1.3rem;
+  text-align: center;
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+}
+#sea h4{
+  font-family: 'Work Sans', sans-serif;
+}
+#sea h1,
+#sea h2,
+#sea h3,
+#sea nav{
+  font-family: 'Space Mono', monospace !important;
+}
+#sea p img{
+  height: 1.2rem;
+  width: 1.2rem;
+}
+#sea .footer{
+  background-color: #0f5c9e;
+  color: white;
+  margin-top: 3rem;
+  width: 100%;
+  text-align: center;
+  height: 10rem;
+}
+#sea .footer h3,
+#sea .footer h4{
+  padding-top: 1rem;
+  margin-bottom: 0;
+}
+
+#sea .fa-github{
+  font-size: 2rem;
+  color: white;
+}
+#sea .fa-github:hover{
+  color: gold;
+}
+#sea .button{
+background-color: rgba(11, 36, 226, 0.28);
+color: white;
+border-radius: 5px;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+max-width: 15%;
+margin-top: 1rem;
+width: auto;
+text-align: center;
+}
+#sea .button:hover{
+cursor: pointer;
+}
+@media only screen and (max-width:580px){
+  #sea .button{
+
+  max-width: 25%;
+  width: auto;
+  }
+}
+.button:active{
+}
+#sea a img{
+  border: 4px solid rgba(0, 0, 0, 0);
+}
+#sea a img:hover{
+  border: 4px solid rgba(11, 36, 226, 0.8);
+}
+#sea a{
     cursor: pointer;
 }
 
 /* toggle class styles */
-
+/*
 .backgroundToggle{
   background-color: rgba(0, 0, 0, 0.55) !important;
 }
 .bodyToggle{
-  background-color: rgba(0, 0, 0, 0.89) !important;
+  background-color: rgba(0, 0, 0, 0.89) ;
+}
+.bodyToggleGreen{
+  background-color: green ;
 }
 .textToggle{
   color: white !important;
 }
-.jumbotronToggle{
+.textToggleRed{
+  color: red !important;
+}
+#fire .jumbotron{
   background-image: url("../images/Volcano-Mountains.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+#forest .jumbotron{
+  background-image: url("../images/forest.jpg");
   background-position: center;
   background-size: cover;
   height: 400px;
@@ -184,8 +702,72 @@ a{
   color: rgba(253, 73, 4, 0.77) !important;
 }
 .buttonToggle{
+background-color: rgba(253, 73, 4, 0.68);
+}
+*/
+/* forest theme */
+/*
+.backgroundToggleForest{
+  background-color: rgba(103, 87, 61, 0.55) !important;
+}
+.bodyToggleForest{
+  background-color: rgba(93, 119, 52, 0.85) ;
+}
+.textToggleForest{
+  color: white !important;
+}
+.jumbotronToggleForest{
+  background-image: url("../images/forest.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+.imgToggleForest{
+  border: 4px solid rgba(0, 0, 0, 0);
+}
+.imgToggleForest:hover{
+  border: 4px solid rgba(103, 87, 61, 0.75);
+}
+.navAToggleForest{
 
 }
-.buttonToggle:hover{
-background-color: rgba(253, 73, 4, 0.77);
+.navAToggleForest:hover{
+  color: white !important;
 }
+.buttonToggleForest{
+background-color: rgba(253, 73, 4, 0.68);
+}
+*/
+/*sea theme */
+/*
+.backgroundToggleSea{
+  background-color: rgba(0, 170, 255, 0.48) !important;
+}
+.bodyToggleSea{
+  background-color: rgba(0, 123, 255, 0.77) ;
+}
+.textToggleSea{
+  color: white !important;
+}
+.jumbotronToggleSea{
+  background-image: url("../images/shark.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+.imgToggleSea{
+  border: 4px solid rgba(0, 0, 0, 0);
+}
+.imgToggleSea:hover{
+  border: 4px solid rgba(0, 112, 255, 0.59);
+}
+.navAToggleSea{
+
+}
+.navAToggleSea:hover{
+  color: white !important;
+}
+.buttonToggleSea{
+background-color: blue;
+}
+*/

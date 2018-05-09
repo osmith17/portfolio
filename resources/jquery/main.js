@@ -1,13 +1,18 @@
 $(document).ready(function(){
 
   $('.button').click(function(){
-    $('.navbar-brand, p, h2, h1').toggleClass('textToggle');
-    $('body').toggleClass('bodyToggle');
-    $('.jumbotron .container, nav').toggleClass('backgroundToggle');
-    $('.jumbotron').toggleClass('jumbotronToggle');
-    $('a img').toggleClass('imgToggle');
-    $('nav a').toggleClass('navAToggle');
-    $('.button').toggleClass('buttonToggle');
-  });
-
+if (  ($('body').attr('id'))== 'snow'){
+    $('body').removeAttr('id','snow');
+  $('body').attr('id','fire');
+} else if (($('body').attr('id'))== 'fire') {
+  $('body').removeAttr('id','fire');
+$('body').attr('id','forest');
+} else if (($('body').attr('id'))== 'forest') {
+  $('body').removeAttr('id','forest');
+$('body').attr('id','sea');
+} else if (($('body').attr('id'))== 'sea') {
+  $('body').removeAttr('id','sea');
+$('body').attr('id','snow');
+}
+});
 });
